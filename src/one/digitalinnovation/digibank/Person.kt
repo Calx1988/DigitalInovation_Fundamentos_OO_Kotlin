@@ -1,16 +1,16 @@
 package one.digitalinnovation.digibank
 
 class Person {
-    var name:String="Cassio"
-    var surname:String="Correa"
+    var name:String="Joao"
+    var surname:String="Fulano"
     var cpf:String="123.123.123.123"
-
+    private set
 }
 
 fun main(){
-    val Cassio=Person()
-    println(Cassio.name)
-    println(Cassio.surname)
-    println(Cassio.cpf)
+    val Joao=Person()
+    println(Joao.name)
+    println(Joao.surname)
+    println(Joao.cpf)
 
 }
