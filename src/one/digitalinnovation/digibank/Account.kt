@@ -2,15 +2,16 @@ package one.digitalinnovation.digibank
 
 import java.math.BigDecimal
 
-class Account {
-    val agency:String
-    val accountId: String
+class Account (
+    val agency:String,
+    val accountId: String,
     val accountBalance: BigDecimal
+) {
+    fun deposit(value: BigDecimal) {
 
-}
-fun deposit(value:BigDecimal){
+    }
 
-}
-fun withdrawal(value:BigDecimal){
+    fun withdrawal(value: BigDecimal) {
 
+    }
 }
