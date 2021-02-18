@@ -1,7 +1,7 @@
 package one.digitalinnovation.digibank
 
-open class Person (
-    open val name:String,
-    open val surname:String,
-    open val cpf:String
+abstract class Person (
+    val name:String,
+    val surname:String,
+    val cpf:String
 )
